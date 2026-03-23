@@ -3,7 +3,7 @@ package ejeHashMap.eje04;
 import java.util.HashMap;
 import java.util.Scanner;
 
-public class Eje_HM_4 {
+public class Eliza {
 
 	public static void main(String[] args) {
 
@@ -24,6 +24,8 @@ public class Eje_HM_4 {
 	    do {
 	    	frase = sc.nextLine();
 	    	boolean encontrada = false;
+	    	
+	    	///
 	    	for (String clave : map.keySet()) {
 	    		if(frase.toUpperCase().contains(clave)) {
 	    			encontrada = true;
